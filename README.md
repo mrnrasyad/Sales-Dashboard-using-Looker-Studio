@@ -3,6 +3,8 @@
 ## Brief Description about this Project
 This project focuses on preparing and cleaning sales data in Google Sheets, then importing it into Google Looker Studio to build an interactive dashboard for analyzing customer, product, and profit performance.
 
+All files for this project can be found in the assets folder. The Google Sheets worksheet can be accessed [here](https://docs.google.com/spreadsheets/d/1wa8ulH8iiOfSBkyEJqEhBvSGMDcTD60xle7uKJ-6DBw/edit?usp=sharing), and the Google Looker Studio dashboard can be accessed [here](https://lookerstudio.google.com/reporting/24316dd9-a3ca-4905-8a62-c4709229a965).
+
 ## Data Description
 The dataset used in this project is downloaded from [Kaggle](https://www.kaggle.com/datasets/saadharoon27/coffee-bean-sales-raw-dataset). It contains three tables/worksheets: **Orders Worksheet**, **Customers Worksheet**, and **Products Worksheet**, with their respective columns/variables described below.
 
