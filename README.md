@@ -85,6 +85,16 @@ Create a **double-page dashboard**:
 
 📊 Page 1: **Products Dashboard**
 
+<p align="center">
+  <kbd><img src="image/1.jpg" width=800px> </kbd> <br>
+  Products Dashboard
+</p>
+
+**Dashboard Summary:**
+The sales dashboard shows total sales of $45.13K with a profit of $1.30K across 3,551 units (2019–2022). Liberica and Excelsa generated the highest profit, while Arabica and Light Roast led in sales volume. However, Liberica and Dark Roast variants underperformed in sales volueme. Sales peaked in 2021 but declined sharply in 2022, highlighting the need for renewed marketing or supply chain adjustments. Focus should remain on high-performing coffee types and profitable roast segments while revisiting pricing and strategy for weaker products.
+
+**Products Dashboard Description:**
+
 **Total Sales, Profit, and Quantity (Scorecards)**
   - Define new metric  `SUM(Unit Price × Quantity)` for the **Total Sales** scorecards.
   - Using `SUM(Profit)`  for the **Total Profit** scorecards.
@@ -116,6 +126,16 @@ Create a **double-page dashboard**:
 
 👥 Page 2: **Customers Dashboard**
 
+<p align="center">
+  <kbd><img src="image/2.jpg" width=800px> </kbd> <br>
+  Customers Dashboard
+</p>
+
+**Dashboard Summary:**
+The customers dashboard records 913 total customers between 2019–2022, with the United States contributing the majority of profits ($1,013), while Ireland and the United Kingdom lag far behind. Customer growth peaked in 2021 (312 customers) but fell sharply in 2022 (166), indicating potential retention challenges. High-profit customers dominate (75.1%), yet loyalty card adoption shows no clear impact on sales performance. Future strategy should focus on retaining high-value customers, strengthening loyalty incentives, and expanding market share outside the U.S. to balance profitability.
+
+**Customers Dashboard Description:**
+
 **Top Customer and Total Customer (Scorecards)**
   - Using `Customer Name` as **dimension**, sorted by `Profit`, for the **Top Customer** scorecards .
   - Using `COUNT_DISTINC(Customer ID)` for the **Total Customer** scorecards.
@@ -139,3 +159,11 @@ Create a **double-page dashboard**:
  **Parameter**
   - Add a **Date Range** parameter to filter data by time.
   - Add a **Fixed List** parameter to filter by `Country`, `Profit Segment`, and `Loyalty Card`.
+
+## Summary
+* Sales reached **\$45.13K** with **\$1.30K profit** across **3,551 units** and **913 customers** (2019–2022).
+* **Liberica** and **Excelsa** were most profitable; **Arabica and Light Roast** led in volume.
+* **Robusta** and **Dark Roast** underperformed in both sales and profit.
+* Sales peaked in **2021** but dropped sharply in **2022**, signaling retention issues.
+* The **U.S. market dominated profits** (\$1,013), while Ireland and the UK contributed little.
+* Recommendations: focus on top products, improve loyalty programs, and expand into new markets.
